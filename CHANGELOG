@@ -4,13 +4,14 @@ IN PROGRESS
 0.1.0
 working on conditional statements
 
+0.0.4
+bugs:
+00: fixed platform info
 0.0.3
 added support for user input
 0.0.2
-bug fixes for 0.0.1 once back online
 bugs:
 00: fixed newlining
 01: fixed command running
 0.0.1
-original: uses udf's to execute input commands
-written offline
+original
