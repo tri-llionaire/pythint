@@ -1,6 +1,6 @@
 #PYTHINT
 import platform
-version = '0.0.2'
+version = '0.0.3'
 branch = 'default'
 date = '6 Feb 2019'
 inputs =  []
