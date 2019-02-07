@@ -1,8 +1,8 @@
 #PYTHINT
 import platform
-version = '0.0.3'
+version = '0.0.4'
 branch = 'default'
-date = '6 Feb 2019'
+date = '7 Feb 2019'
 inputs =  []
 def printf(param):
     return 'print \'%s\'' % param
@@ -18,7 +18,7 @@ def div(param, parame):
     return '%d / %d' % (param, parame)
 def usin(param, parame):
     return '%s = raw_input(\'%s\')' % (param, parame)
-print '\npythint %s %s %s\n%s [%s] on %s' % (version, branch, date, platform.python_version(), platform.python_compiler(), platform.architecture())
+print '\npythint %s %s %s\n%s [%s] on %s' % (version, branch, date, platform.python_version(), platform.python_compiler()[:9], platform.system())
 start = raw_input('\nType \'s\' to start pythint, \'e\' to exit it, and \'r\' to run previous lines: ')
 if start == 's':
     while start != 'r' and start != 'e':
